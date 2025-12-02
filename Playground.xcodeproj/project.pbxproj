@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		69117AB02EDF571400EAC532 /* playground.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 69117AAF2EDF571300EAC532 /* playground.pdf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		44E6A0942EDF49CF001457AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		44E6A07D2EDF49CE001457AE /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E6A0932EDF49CF001457AE /* PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E6A09D2EDF49CF001457AE /* PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69117AAF2EDF571300EAC532 /* playground.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = playground.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -92,6 +97,7 @@
 				44E6A0962EDF49CF001457AE /* PlaygroundTests */,
 				44E6A0A02EDF49CF001457AE /* PlaygroundUITests */,
 				44E6A07E2EDF49CE001457AE /* Products */,
+				69117AAF2EDF571300EAC532 /* playground.pdf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69117AB02EDF571400EAC532 /* playground.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
