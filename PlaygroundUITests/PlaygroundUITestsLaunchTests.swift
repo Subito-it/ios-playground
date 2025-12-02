@@ -1,14 +1,8 @@
-//
-//  PlaygroundUITestsLaunchTests.swift
-//  PlaygroundUITests
-//
-//  Created by Tomas Camin on 02/12/25.
-//
+// (c) Subito.it proprietary and confidential
 
 import XCTest
 
 final class PlaygroundUITestsLaunchTests: XCTestCase {
-
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }

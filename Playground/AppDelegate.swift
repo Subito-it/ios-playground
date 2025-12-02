@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  Playground
-//
-//  Created by Tomas Camin on 02/12/25.
-//
+// (c) Subito.it proprietary and confidential
 
 import UIKit
 
@@ -13,16 +8,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let window = UIWindow()
-        
+
         let viewController = ViewController()
         let navigationController = UINavigationController(rootViewController: viewController)
-                
+
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
-        
+
         self.window = window
-        
+
         return true
     }
 }
-
